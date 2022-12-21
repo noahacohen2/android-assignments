@@ -105,7 +105,7 @@
         app:layout_constraintTop_toBottomOf="@+id/studentdetails_phone_tv" />
 
     <TextView
-        android:id="@+id/edit_student_cb_et"
+        android:id="@+id/edit_student_cb_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"

@@ -49,7 +49,7 @@ public class StudentDetails extends AppCompatActivity {
 
     public void handleCBOnScreen(Student currStudent){
         CheckBox cb = findViewById(R.id.edit_student_cb);
-        TextView cbTv = findViewById(R.id.edit_student_cb_et);
+        TextView cbTv = findViewById(R.id.edit_student_cb_tv);
 
         cb.setChecked(currStudent.getCb());
         cb.setEnabled(false);

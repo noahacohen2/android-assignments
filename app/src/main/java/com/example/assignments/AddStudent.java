@@ -16,9 +16,9 @@ public class AddStudent extends AppCompatActivity {
         setContentView(R.layout.activity_new_student);
 
         EditText nameEt = findViewById(R.id.edit_student_name_et);
-        EditText idEt = findViewById(R.id.edit_student_id_tp);
+        EditText idEt = findViewById(R.id.edit_student_id_et);
         CheckBox cb = findViewById(R.id.edit_student_cb);
-        TextView cbTv = findViewById(R.id.edit_student_cb_et);
+        TextView cbTv = findViewById(R.id.edit_student_cb_tv);
         EditText phoneEt = findViewById(R.id.edit_student_phone_et);
         EditText addressEt = findViewById(R.id.edit_student_address_et);
 
